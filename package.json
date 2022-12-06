@@ -1,0 +1,30 @@
+{
+  "name": "@pysche/controller",
+  "version": "1.0.0",
+  "description": "一个通用的Koa控制器",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --detectOpenHandles --forceExit",
+    "lint": "eslint --ext .js --ext .jsx ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "15.0.3",
+    "@pysche/dayjs": "^1.0.0",
+    "@pysche/log4js": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-sonar": "^0.0.7",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^25.2.7"
+  }
+}
