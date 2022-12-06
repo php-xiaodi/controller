@@ -1,6 +1,6 @@
 {
   "name": "@pysche/controller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个通用的Koa控制器",
   "main": "index.js",
   "scripts": {

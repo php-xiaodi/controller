@@ -1,6 +1,6 @@
 const Joi = require('@hapi/joi')
-const dayjs = require('@pg/dayjs')
-const log4js = require('@pg/log4js')
+const dayjs = require('@pysche/dayjs')
+const log4js = require('@pysche/log4js')
 
 class Controller {
   constructor() {
